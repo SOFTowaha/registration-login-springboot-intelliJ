@@ -4,6 +4,8 @@ import com.deloitte.model.User;
 import com.deloitte.service.SecurityService;
 import com.deloitte.service.UserService;
 import com.deloitte.validator.UserValidator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Propagation;
@@ -20,6 +22,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class UserController {
+
+    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @Autowired
     private UserService userService;
@@ -42,6 +46,7 @@ public class UserController {
     public String registration(@ModelAttribute("userForm") User userForm, BindingResult bindingResult, Model model) {
         userValidator.validate(userForm, bindingResult);
 
+        logger.info("Registering the user:{}",userForm.getUsername());
         if (bindingResult.hasErrors()) {
             return "registration";
         }
