@@ -1,0 +1,227 @@
+body {
+  background-color: #EEEEFF;
+  font-family: Verdana;
+  font-size: 14px;
+  margin: 0;
+  padding: 0 0 20px 10px;
+  color : black
+}
+
+fieldset {
+  padding: 3px 10px 10px 10px;
+  margin: 11px;
+  width: 410px;
+  display: block;
+}
+
+legend {
+  padding: 2px 7px;
+  margin: 0;
+  color: #999999;
+  font-size: 13px;
+}
+
+label {
+  display: block;
+  padding: 0;
+  margin: 0 0 3px 0;
+}
+
+div.input {
+  margin: 7px 0;
+}
+
+div.success {
+  color: #33FF99;
+}
+
+div.resultbox {
+	foreground: black;
+	padding: 2px 7px;
+  	margin: 0;
+    border-style: solid;   
+    border-width: 1px;    
+    border: 1px solid #33FF99;
+}
+
+div.errormessage {
+	foreground: black;
+	padding: 2px 7px;
+  	margin: 0;
+    border-style: solid;   
+    border-width: 1px;    
+    border: 1px solid #FF0000;
+}
+
+input.textbox {
+  width: 173px;
+	margin-top: 3px;
+}
+
+.validationDiv {
+  padding: 0px 0px 5px 0px;
+  margin: 8px 0px 0px 0px;
+}
+
+.correct {
+  color: #33FF99;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.incorrect {
+  color: #FF0000;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.note {
+  margin: 10px 10px 20px 10px;
+  width: 310px;
+}
+
+.note p {
+  font-size: 12px;
+}
+
+.note ul {
+  margin: 5px 0 5px 0; 
+  padding-left: 25px; 
+  list-style-type: disc;
+}
+
+.note li {
+  font-size: 12px;
+  margin: 0 0 5px 0;
+}
+
+#notes {
+  position: absolute;
+  top: 20px;
+  left: 465px;
+}
+
+h1 {
+  padding: 20px 0 0 10px; 
+  margin: 0;
+  font-size: 17px; 
+	font-family: Arial;
+  width: 440px;
+}
+
+h2 {
+  padding: 15px 0 0 0; 
+  margin: 0 0 0 10px;
+  font-size: 15px; 
+}
+
+h3 {
+  padding: 10px 0 0 10px; 
+  margin: 0;  
+  font-size: 13px;
+  	font-family: Arial;
+}
+
+.navigation {
+  margin: 5px 5px 5px 12px;
+}
+
+.message {
+  padding: 10px;
+	margin: 10px;
+	border: 1px solid #ccc;
+	width: 410px;
+}
+
+.warning {
+  color: #FF0000;
+}
+
+#systeminfo {
+  width: 412px;
+  margin: 22px 10px 20px 10px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  clear: both;
+  font-size: 11px;
+  color: #999;
+  background-color: #f0f0f0;
+}
+
+#systeminfo  p {
+  margin: 10px 0;
+  padding: 0;
+}
+.center
+{
+	text-align: center !important;
+}
+
+.floatRight
+{
+	float: right;	
+}
+
+.right
+{
+	text-align: right;	
+}
+
+.left
+{
+	text-align: left;	
+}
+
+.middle
+{
+	vertical-align: middle;
+}
+
+.fullHeight
+{
+	height: 100%;	
+}
+
+.strong
+{
+	folt-weight: bold;	
+}
+.red
+{
+	color: red;
+}
+.noMargin
+{
+	margin: 0px !important;	
+}
+.noPadding
+{
+	padding: 0px !important;
+}
+.container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 1080px;
+}
+.span6 {
+  width: 560px;
+}
+.offset3 {
+  margin-left: 260px;
+}
+.alert {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #c09853;
+}
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
